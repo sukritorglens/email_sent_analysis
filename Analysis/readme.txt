@@ -1,0 +1,4 @@
+-Cleaned the database by dropping all the emails with NaN content 
+-Cleaned the database by removing the stop words in the emails and finding the emails that have length less than q1 in the distribution of the emails (did in batches for the dataframe)
+-Obtained sentiment score using the ntlk library 
+-Filtered the contents of the csv dataframe using magnitude of the sentiment polarity scores
